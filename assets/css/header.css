@@ -1,0 +1,43 @@
+/* :root{
+    --color-header: rgba(255, 255, 255, 0.702);
+}
+header{
+    background-color: var(--color-header);
+} */
+header{
+    padding: 3rem 7rem;
+}
+header>section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__header>img{
+    margin-right: 10px;
+}
+.menu__header>h3{
+    color: white;
+    font-size: 20px;
+}
+header>section>nav{
+    display: flex;   
+}
+header>section>nav>ul{
+    display: flex;
+}
+header>section>nav>ul>li{
+    margin: 0 10px;
+}
+header>section>nav>ul>li>a{
+    color: white;
+    font-size: 15px;
+}
+header>section>nav>ul>li>a:hover{
+    color: var(--color-de-link);
+}
+

@@ -1,0 +1,64 @@
+.formcontacto{
+
+}
+.formcontacto__contacto{
+    display: flex;
+    justify-content: center; 
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    margin: 5rem;
+    background-color: rgba(240, 248, 255, 0.247);
+    border-radius: 10px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+}
+.formcontato__form>input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.formcontato__form>textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.formcontato__form>button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--color-de-fondo);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.formcontato__form>button:hover{
+    background-color: var(--color-cuaternario);
+    cursor: pointer;
+}
+.formcontato__text>h2{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+

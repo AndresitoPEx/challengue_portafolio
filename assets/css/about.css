@@ -1,0 +1,31 @@
+.about{
+    background-color: var(--color-de-fondo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+.about>.about__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about>.about__div>.about__title{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.about>.about__div>.about__paragraph{
+    font-size: 17px;
+    margin: 10px 0;
+}
+.about__div>img{
+    width: 20%;
+    align-self: self-end;   
+}
