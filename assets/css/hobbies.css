@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 7rem;
+    padding: 7rem 7rem;
 }
 .hobbies__title{
     font-size: 30px;
@@ -29,7 +29,7 @@
     border-radius: 10%;
     background-color: var(--color-primario);
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.192);
+    box-shadow: 0 0 10px var(--color-terciario);
 }
 .hobbies__container>.hobbies__box>ul>li{
     margin: 5px 0;

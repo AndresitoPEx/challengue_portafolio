@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 7rem;
+    padding: 7rem 7rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     overflow: hidden;
     position: relative;
@@ -25,7 +25,7 @@
 
 }
 .academic>.academic__courses>.academic__courses__box>ul{
-    background-color: rgba(250, 235, 215, 0.372);
+    background-color: var(--color-primario);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@
     height: 24rem;
     border-radius: 10%;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px var(--color-terciario);
 
 }
 .academic>.academic__courses>.academic__courses__box>ul>li{

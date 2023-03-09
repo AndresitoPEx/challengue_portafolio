@@ -5,41 +5,63 @@ header{
     background-color: var(--color-header);
 } */
 header{
-    padding: 3rem 7rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    z-index: 9999;
+    backdrop-filter: blur(5px); 
 }
 header>section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding: 0 10rem;
 }
 
-.menu__header{
-    display: flex;
-    align-items: center;
-}
+
 .menu__header>img{
-    width: 80px;
-    margin-right: 10px;
+    width: 5rem;
 }
-.menu__header>h3{
-    color: white;
-    font-size: 20px;
+.menu__header>img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
+
 header>section>nav{
-    display: flex;   
+    display: flex;
+    width: 50%;   
 }
 header>section>nav>ul{
     display: flex;
+    transition: all 0.3s ease;
 }
 header>section>nav>ul>li{
-    margin: 0 10px;
+    margin: 0 20px;
+
 }
+
 header>section>nav>ul>li>a{
-    color: white;
-    font-size: 15px;
+    font-size: 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+    color: var(--color-terciario);
 }
-header>section>nav>ul>li>a:hover{
-    color: var(--color-de-link);
+header>section>nav>ul>li>a::after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-out, left 0.3s ease-out;
 }
+header>section>nav>ul>li>a:hover::after{
+    width: 100%;
+    left: 0%;
+}
+
+
 

@@ -1,34 +1,41 @@
-.about{
+.about {
     background-color: var(--color-de-fondo);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 10rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* Mejoramos el padding para que el nav no se coma la seccion */
+    padding: 7rem 10rem 3rem 10rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     position: relative;
     z-index: 1;
-    color: white;
-}
-.about>.about__div{
+    color: var(--color-terciario);
+  }
+  
+  .about__div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-.about>.about__div>.about__title{
-    font-size: 30px;
-    margin: 10px 0;
-}
-.about>.about__div>.about__paragraph{
-    font-size: 17px;
-    margin: 10px 0;
-}
-.about__div>img{
-    width: 20%;
-    align-self: self-end;   
-}
+  }
+  
+  .about__title {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .about__paragraph {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .about__div img {
+    max-width: 20%;
+    align-self: self-end;
+  }
+  
 #firma{
+    mix-blend-mode: darken;
     filter: invert(100%);
 }

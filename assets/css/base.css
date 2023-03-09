@@ -6,9 +6,8 @@
    --color-fondo2: #0d0d0d7f;
    --color-primario: #1828489f;
    --color-secundario: #0D0D0D;
-   
-   --color-terciario: rgba(255, 255, 255, 0.283);
-   --color-cuaternario: #4b6cb7;
+   --color-terciario: rgba(255, 255, 255, 0.699);
+   --color-cuaternario: #4b6bb7d0;
    --degradado-fondo: linear-gradient(to right, #4b6cb7, #182848);
 }
 
@@ -17,7 +16,7 @@
 body {
     box-sizing: border-box;
     background: var(--degradado-fondo);
-    color: white;
+    color: var(--color-terciario);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
