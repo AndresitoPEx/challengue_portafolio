@@ -1,15 +1,15 @@
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --color-de-fondo: #ffffff56;
+   --color-de-fondo: #4b6bb748;
    --color-de-link: #0D0D0D;
    --color-fondo2: #0d0d0d7f;
-   --color-primario: #f2f2f259;
+   --color-primario: #1828489f;
    --color-secundario: #0D0D0D;
    
    --color-terciario: rgba(255, 255, 255, 0.283);
-   --color-cuaternario: rgba(0, 6, 128, 0.792);
-   --degradado-fondo: radial-gradient( circle farthest-corner at 10% 10%,  rgba(37,145,251,0.98) 0.1%, black 99.8% );
+   --color-cuaternario: #4b6cb7;
+   --degradado-fondo: linear-gradient(to right, #4b6cb7, #182848);
 }
 
 
@@ -32,59 +32,6 @@ a{
 }
 
 
-/*Sección Menu*/
-
-section.menu{
-
-}
-
-/*Sección Title*/
-
-section.title{
-
-}
-
-/*Sección About*/
-
-section.about{
-
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
 @media (min-width: 768px) {
 
 /* Menú */

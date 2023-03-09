@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    color: black;
+    color: white;
 }
 .hobbies__container>.hobbies__box{
     margin: 50px 0;
@@ -29,7 +29,7 @@
     border-radius: 10%;
     background-color: var(--color-primario);
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.192);
 }
 .hobbies__container>.hobbies__box>ul>li{
     margin: 5px 0;

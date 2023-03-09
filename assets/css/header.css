@@ -13,11 +13,13 @@ header>section{
     align-items: center;
    
 }
+
 .menu__header{
     display: flex;
     align-items: center;
 }
 .menu__header>img{
+    width: 80px;
     margin-right: 10px;
 }
 .menu__header>h3{

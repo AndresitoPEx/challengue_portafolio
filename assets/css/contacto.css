@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 .formcontato__form>button:hover{
-    background-color: var(--color-cuaternario);
+    background-color: #657fbb;
     cursor: pointer;
 }
 .formcontato__text>h2{

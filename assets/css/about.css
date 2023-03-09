@@ -8,7 +8,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    color: black;
+    color: white;
 }
 .about>.about__div{
     display: flex;
@@ -28,4 +28,7 @@
 .about__div>img{
     width: 20%;
     align-self: self-end;   
+}
+#firma{
+    filter: invert(100%);
 }
