@@ -13,7 +13,7 @@
 }
 
 .titular>.title__div>.title__container>h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     
 }
 .titular>.title__div>.title__container>h3{
@@ -53,8 +53,8 @@
 }
 
 .titular>.title__div>.title__profile{
-    mask-image: linear-gradient(to top, transparent, black 60%);
-    width: 50%;
+  
+    width: 35%;
     opacity: 80%;
 }
 
