@@ -8,6 +8,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
 }
 .academic>.academic__title{
     font-size: 30px;
@@ -22,7 +23,7 @@
 }
 .academic>.academic__courses>.academic__courses__box{
     margin: 50px 0;
-
+    
 }
 .academic>.academic__courses>.academic__courses__box>ul{
     background-color: var(--color-primario);

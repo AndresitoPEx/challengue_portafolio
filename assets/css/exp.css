@@ -6,6 +6,7 @@
     padding: 3rem 7rem;
     min-height: 100vh;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
     
   }
   
@@ -35,6 +36,7 @@
     align-items: center;
     border-radius: 25px;
     background-color: var(--color-fondo2);
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .image-content {
