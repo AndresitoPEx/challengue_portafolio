@@ -29,6 +29,7 @@
   .about__paragraph {
     font-size: 1rem;
     margin: 1rem 0;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .about__div img {
@@ -39,4 +40,9 @@
 #firma{
     mix-blend-mode: darken;
     filter: invert(100%);
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about {
+      padding: 7rem 5rem 3rem 5rem;
+    }
 }

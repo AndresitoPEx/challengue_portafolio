@@ -9,7 +9,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    /* box-shadow: 0 2px 4px rgba(0,0,0,.1); */
     z-index: 9999;
     backdrop-filter: blur(5px); 
     
@@ -38,9 +38,11 @@ header>section>nav{
 header>section>nav>ul{
     display: flex;
     transition: all 0.3s ease;
+    width: 100%; /* aumentar el ancho al 80% */
+    
 }
 header>section>nav>ul>li{
-    margin: 0 20px;
+    margin: 0 auto; /* centrar horizontalmente */
 
 }
 
@@ -64,6 +66,77 @@ header>section>nav>ul>li>a:hover::after{
     width: 100%;
     left: 0%;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    header > section {
+        padding: 0 5rem;
+    }
+    header > section > nav {
+        width: 70%;
+    }
+    .menu__header>img{
+        width: 4rem;
+    }
+    .menu__list__item>a{
+        font-size: 0.7rem;
+    }
+    
+}
+@media (max-width: 424px) {
+    header > section {
+        padding: 0 2rem;
+    }
+    header > section > nav {
+        display: none;
+    }
+    .menu__header > img {
+        width: 3rem;
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 1;
+        opacity: 0.95;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    .menu__list__item {
+        margin-top: 2rem;
+    }
+    .menu__list > li > a {
+        font-size: 1.5rem;
+        color: var(--color-secundario);
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+    .menu__list > li > a:hover {
+        color: var(--color-primario);
+    }
+    .menu__list__item > a::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background-color: var(--color-primario);
+        transition: width 0.3s ease-out, left 0.3s ease-out;
+    }
+    .menu__list__item > a:hover::after {
+        width: 100%;
+        left: 0%;
+    }
+    .menu__list.active {
+        transform: translateY(0%);
+    }
+}
+
 
 
 
